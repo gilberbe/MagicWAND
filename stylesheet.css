@@ -1,0 +1,45 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    background-color: #FFD700;
+}
+
+.active {
+    background-color: #800080;
+}
+
+#mainpic {
+    padding: 39px;
+    width: 20%;
+    height: 20%;
+}
+
+#missionstatement {
+    padding-right: 200px;
+    padding-left: 200px;
+    background-color: white;
+}
+
+}
+
+body {
+    background-color: #aaaaaa;
+}
